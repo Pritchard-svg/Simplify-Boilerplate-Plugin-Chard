@@ -1,4 +1,4 @@
-name: Deploy Plugin to Sandbox
+name: Deploy Boilerplate Plugin to Sandbox
 
 on:
   push:
