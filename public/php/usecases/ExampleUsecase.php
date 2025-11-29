@@ -22,7 +22,7 @@ class ExampleUsecase {
      */
     public function example_function( array $entry ): void {
 
-        /* 🔹 TASK 5 LOGGING */
+        /* TASK 5 LOGGING */
         error_log( 'Task 5: Contact form submitted' );
         error_log( print_r( $entry, true ) );
 
@@ -56,7 +56,7 @@ class ExampleUsecase {
      */
     public function handle_event_registration( array $entry ): void {
 
-        /* 🔹 TASK 5 LOGGING */
+        /* TASK 5 LOGGING */
         error_log( 'Task 5: Event registration submitted' );
         error_log( print_r( $entry, true ) );
 
