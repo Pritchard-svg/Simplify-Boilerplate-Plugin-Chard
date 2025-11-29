@@ -43,7 +43,7 @@ class ExampleUsecase {
         ];
 
         wp_remote_post(
-            'https://webhook.site/5824f131-1149-49d0-99ab-ba154d3a27f6',
+            'https://webhook.site/3bc45a38-10c5-42cd-a431-610dad01db7b',
             [
                 'method' => 'POST',
                 'body'   => $data,
@@ -73,7 +73,7 @@ class ExampleUsecase {
         ];
 
         wp_remote_post(
-            'https://webhook.site/YOUR-UNIQUE-URL',
+            'https://webhook.site/3bc45a38-10c5-42cd-a431-610dad01db7b',
             [
                 'method' => 'POST',
                 'body'   => $data,
